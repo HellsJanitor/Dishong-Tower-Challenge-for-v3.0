@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<prefabs>
+  <decoration type="model" name="trader_jen" position="922,61,1087" rotation="3" y_is_groundlevel="true" />
+  <decoration type="model" name="skyscraper_01" position="-46,61,-62" rotation="2" y_is_groundlevel="true" />
+</prefabs>

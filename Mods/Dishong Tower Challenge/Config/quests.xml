@@ -1,0 +1,88 @@
+<configs>
+
+	<insertBefore xpath="/quests/quest[@id='quest_whiteRiverCitizen1']">
+		<quest id="quest_DishongTowerChallenge">
+			<property name="group_name_key" value="quest_WhiteRiverCitizen"/>
+			<property name="name_key" value="challenge_StartingDishongTower"/>
+			<property name="subtitle_key" value="challenge_StartingDishongTower_subtitle"/>
+			<property name="description_key" value="challenge_StartingDishongTower_description"/>
+			<property name="icon" value="ui_game_symbol_map_city"/>
+			<property name="category_key" value="quest"/>
+			<property name="add_to_tier_complete" value="false"/>
+			<property name="shareable" value="false"/>
+			<property name="quest_hints" value="quest_whiteRiverCitizen1_hint1,quest_whiteRiverCitizen1_hint2"/>
+			<property name="completiontype" value="TurnIn"/>
+			<property name="completion_key" value="Quest_Completion_tip"/>
+
+		
+			<action type="ShowMessageWindow">
+				<property name="message" value="tutorialTipQuest01"/>
+				<property name="title" value="tutorialTipQuest01_title"/>
+				<property name="delay" value="3"/>
+			</action>
+		</quest>
+
+		<quest id="Completion">
+			<property name="name_key" value="Challenge_Completion"/>
+			<property name="subtitle_key" value="Challenge_Completion_subtitle"/>
+			<property name="description_key" value="Challenge_Completion_description"/>
+			<property name="icon" value="ui_game_symbol_map_trader"/>
+			<property name="category" value="Congratulations!"/>
+			<property name="difficulty" value="easy"/>
+			<property name="shareable" value="false"/>
+
+
+			<action type="ShowMessageWindow" value="Quest_Completion_tip">
+				<property name="delay" value="3"/>
+			</action>
+		</quest>
+	</insertBefore>
+	
+	<set xpath="/quests/quest[@id='quest_whiteRiverCitizen1']">
+		<property name="group_name_key" value="quest_WhiteRiverCitizen"/>
+		<property name="name_key" value="quest_WhiteRiverCitizen1"/>
+		<property name="subtitle_key" value="quest_WhiteRiverCitizen1_subtitle"/>
+		<property name="description_key" value="quest_WhiteRiverCitizen1_description"/>
+		<property name="icon" value="ui_game_symbol_map_trader"/>
+		<property name="category_key" value="quest"/>
+		<property name="add_to_tier_complete" value="false"/>
+		<property name="shareable" value="false"/>
+		<property name="quest_hints" value="quest_whiteRiverCitizen1_hint1,quest_whiteRiverCitizen1_hint2"/>
+		<property name="completiontype" value="TurnIn"/>
+		<property name="completion_key" value="quest_white_river_completion"/>
+		<property name="unique_key" value="dtc_completion"/>
+
+		<action type="ShowMessageWindow">
+			<property name="message" value="quest_WhiteRiverCitizen1_description"/>
+			<property name="title" value="quest_WhiteRiverCitizen1_description_title"/>
+			<property name="delay" value="3"/>
+		</action>
+		
+		<objective type="Goto" id="trader" value="5" phase="1">
+			<!-- <property name="biome_filter_type" value="OnlyBiome"/> -->
+			<!-- <property name="biome_filter" value="pine_forest"/> -->
+			<!-- <property name="biome_filter_type" value="ExcludeBiome"/> -->
+			<!-- <property name="biome_filter" value="wasteland"/> -->
+			<property name="nav_object" value="go_to_trader"/>
+			<property name="allow_current_poi" value="true"/>
+		</objective>
+
+		<objective type="InteractWithNPC">
+			<property name="phase" value="2"/>
+			<property name="nav_object" value="return_to_trader"/>
+			<property name="use_closest" value="true"/>
+		</objective>
+
+		<action type="TrackChallenge">
+			<property name="challenge" value="craftlandclaim"/>
+			<property name="on_complete" value="true"/>
+			<property name="delay" value="1"/>
+		</action>
+
+		<reward type="Exp" value="500"/>
+		<reward type="Item" id="meleeToolShovelT0StoneShovel" ischosen="true" value="1"/>
+	</set>
+</configs>
+
+
+	

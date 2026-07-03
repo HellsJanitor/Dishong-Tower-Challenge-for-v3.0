@@ -1,0 +1,65 @@
+<configs>	
+	<remove xpath="/entitygroups/entitygroup[not (@name='ZombieBearsGroup') and not (@name='animalZombieBear')]/e[@n='animalZombieBear']"/>
+	<remove xpath="/entitygroups/entitygroup[not (@name='animalDireWolf')]/e[@n='animalDireWolf']"/>
+	<remove xpath="/entitygroups/entitygroup[not (@name='animalBear') and not (@name='animalBearSmall') and not (@name='BearGroup') and not (@name='BearSmallGroup')]/e[@n='animalBear']"/>
+	
+	<set xpath="//entitygroup[@name='EnemyAnimalsWastelandNight']">
+		<e n="animalWolf" p="20"/>
+		<e n="animalZombieDog" p="20"/>
+		<e n="none" p="60"/>
+	</set>
+
+	<set xpath="//entitygroup[@name='ZombiesDesert']">
+		<e n="zombieRancher" p="0.10"/>
+		<e n="zombieMoe" p="0.25"/>
+		<e n="zombieFatHawaiian" p="0.2"/>
+		<e n="zombieSteveCrawler" p="0.05"/>
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesDesertNight']">
+		<e n="zombieRancher" p="0.10"/>
+		<e n="zombieRancherFeral" p="0.05"/>
+		<e n="zombieBiker" p="0.4"/>
+		<e n="zombieBikerFeral" p="0.1"/>
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesSnow']">
+		<e n="zombieChuck" p="0.10"/>
+		<e n="zombieMoe" p="0.25"/>
+		<e n="zombieLumberjack" p="0.25"/>
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesSnowNight']">
+		<e n="zombieChuck" p="0.1"/>
+		<e n="zombieChuckFeral" p="0.05"/>
+		<e n="zombieChuckRadiated" p="0.01"/>
+		<e n="zombieChuckInfernal" p="0.01"/>
+		<e n="zombieChuckCharged" p="0.01"/>
+		<e n="zombieLumberjack" p="0.45"/>
+		<e n="zombieLumberjackFeral" p="0.05"/>
+	</set>
+	
+	<set xpath="//entitygroup[@name='ZombiesAllWasteland']">
+		<e n="zombieBowler" p="0.1"/>
+		<e n="zombieArlene" p="0.4"/>
+		<e n="zombieSteveCrawler" p="0.4"/>
+		<e n="zombieJoe" p="0.4"/>
+		<e n="zombieSteve" p="0.4"/>
+		<e n="zombieTomClark" p="0.4"/>
+		<e n="zombieYo" p="0.4"/>
+		<e n="zombieDarlene" p="0.4"/>
+		<e n="zombieMarlene" p="0.4"/>
+		<e n="zombieMoe" p="0.4"/>
+		<e n="zombieBusinessMan" p="0.4"/>
+		<e n="zombieBoe" p="0.4"/>
+		<e n="zombieFemaleFat"/>
+		<e n="zombieFatHawaiian"/>
+		<e n="zombieNurse"/>
+		<e n="zombieSoldier"/>
+		<e n="zombieBurnt"/>
+		<e n="zombieSpider"/>
+		<e n="zombieFatCop"/>
+		<e n="zombieMaleHazmat"/>
+		<e n="zombieMutated" p="0.1"/>
+	</set>
+</configs>
