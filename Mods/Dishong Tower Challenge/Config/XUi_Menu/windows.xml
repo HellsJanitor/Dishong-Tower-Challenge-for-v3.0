@@ -1,18 +1,24 @@
 <configs>
-	
 	<set xpath="/windows/window[@name='mainMenu']/texture[@name='gameLogo']/@texture">@modfolder:UIAtlases/ItemIconAtlas/logo.png</set>
 	
 	<set xpath="/windows/window[@name='menuBackground']">
-		<sprite depth="0" color="[black]" globalopacitymod="0" anchor_left="#cam,0,-5" anchor_bottom="#cam,0,-5" anchor_right="#cam,1,5" anchor_top="#cam,1,5" />
+		<sprite depth="0" color="[black]" globalopacitymod="0" anchor_left="#cam,0,-5" anchor_bottom="#cam,0,-5" anchor_right="#cam,1,5" anchor_top="#cam,1,5"/>
 		<texture depth="1" color="[white]" globalopacitymod="0" texture="@modfolder:UIAtlases/ItemIconAtlas/background.jpg" name="bgTexture" anchor_left="#cam,0.5,-896" anchor_right="#cam,0.5,896" anchor_bottom="#cam,0.5,-504" anchor_top="#cam,0.5,504" keepsourceaspectratio="true"/>
-	
 		<!-- <video name="videoTexture" depth="2" anchor_left="#cam,0.5,-1" anchor_right="#cam,0.5,924" anchor_bottom="#cam,0.5,-530" anchor_top="#cam,0.5,1" uri="@modfolder(DishongTowerChallenge):/Video/transparent" videoaspect="FitInside" loop="true" /> -->
 		<!-- <video name="videoTexture" depth="2" anchor_left="#cam,0.5,-1152" anchor_right="#cam,0.5,924" anchor_bottom="#cam,0.5,-530" anchor_top="#cam,0.5,648" uri="@modfolder(DishongTowerChallenge):/Video/transparent(1)" videoaspect="FitInside" loop="true" /> -->
-
 	</set>
-
 	
-	<remove xpath="//window[@name='mainMenuNews']/rect[@name='game']"/>
-	<remove xpath="//window[@name='mainMenuNews']/rect[@name='featured']"/>
-
+	<!-- Main New / Continue Game settings screen: hide preset dropdown area -->
+	<set xpath="/windows/window[@name='newContinueGameSettings']//rect[@name='presetSelector']/rect[@name='combos']/@pos">-10000,-10000</set>
+	<set xpath="/windows/window[@name='newContinueGameSettings']//rect[@name='presetSelector']/rect[@name='combos']/@height">0</set>
+	<!-- Sandbox Options popup: hide preset dropdown area -->
+	<set xpath="/windows/window[@name='sandboxOptions']//rect[@name='presetSelector']/rect[@name='combos']/@pos">-10000,-10000</set>
+	<set xpath="/windows/window[@name='sandboxOptions']//rect[@name='presetSelector']/rect[@name='combos']/@height">0</set>
+	<!-- Hide preset management buttons by modifying existing attributes -->
+	<set xpath="/windows/window[@name='sandboxOptions']//labeledbutton[@name='btnCreatePreset']/@pos">-10000,-10000</set>
+	<set xpath="/windows/window[@name='sandboxOptions']//labeledbutton[@name='btnCreatePreset']/@height">0</set>
+	<set xpath="/windows/window[@name='sandboxOptions']//labeledbutton[@name='btnCopy']/@enabled">false</set>
+	<set xpath="/windows/window[@name='sandboxOptions']//labeledbutton[@name='btnDelete']/@enabled">false</set>
+	<set xpath="/windows/window[@name='sandboxOptions']//labeledbutton[@name='btnPasteCode']/@pos">-10000,-10000</set>
+	<set xpath="/windows/window[@name='sandboxOptions']//labeledbutton[@name='btnPasteCode']/@height">0</set>
 </configs>
