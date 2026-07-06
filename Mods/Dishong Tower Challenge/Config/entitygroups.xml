@@ -62,4 +62,38 @@
 		<e n="zombieMaleHazmat"/>
 		<e n="zombieMutated" p="0.1"/>
 	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']">
+		<e n="zombieMutated" />
+		<e n="zombieFatCop" p="0.4" />
+		<e n="zombieMaleHazmat" p="0.4" />
+		<e n="zombieMutatedFeral" p="0.05" />
+		<e n="zombieWightFeral" p="0.05" />
+	</set>
+	
+	<set xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
+		<e n="zombieMutatedFeral" p="4" />
+		<e n="zombieFatCopFeral" p="3" />
+		<e n="zombieSoldierFeral" p="3" />
+		<e n="zombieWightFeral" p="2" />
+		<e n="zombieSpiderFeral" p="2" />
+		<e n="zombieMutatedRadiated" p="0.1"/>
+		<e n="zombieFemaleFatFeral" />
+		<e n="zombieBurntFeral" />
+		<e n="zombieMaleHazmatFeral" />
+		<e n="zombieFatHawaiianFeral" />
+		<e n="zombieBowlerFeral" p="0.5" />
+		<e n="zombieBoeFeral" p="0.5" />
+		<e n="zombieJoeFeral" p="0.5" />
+		<e n="zombieSteveFeral" p="0.5" />
+		<e n="zombieTomClarkFeral" p="0.5" />
+		<e n="zombieMoeFeral" p="0.5" />
+		<e n="zombieYoFeral" p="0.5" />
+		<e n="zombieBusinessManFeral" p="0.5" />
+		<e n="zombieArleneFeral" p="0.5" />
+		<e n="zombieDarleneFeral" p="0.5" />
+		<e n="zombieMarleneFeral" p="0.5" />
+		<e n="zombieNurseFeral" p="0.5" />
+		<e n="zombieSteveCrawlerFeral" p="0.5" />
+	</set>
 </configs>

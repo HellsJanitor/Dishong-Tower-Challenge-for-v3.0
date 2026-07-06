@@ -483,131 +483,131 @@
 	
 	<!-- zombie specific loot containers -->
 	<insertafter xpath="//lootcontainers//lootcontainer[@name='twitch_home_run_rewardsT5']">
-		<lootcontainer name="ZombieMutatedLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="ZombieMutatedLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupMutatedLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="LumberjackLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="LumberjackLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupLumberjackLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="HazmatLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="HazmatLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupHazmatLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="FatZombieLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="FatZombieLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupFatZombieLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="RadFatZombieLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadFatZombieLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadFatZombieLoot"/>
 		</lootcontainer>
 	
-		<lootcontainer name="ZombieWightLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="ZombieWightLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupZombieWightLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="RadZombieWightLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadZombieWightLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadZombieWightLoot"/>
 		</lootcontainer>
 	
-		<lootcontainer name="BusinessmanLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="BusinessmanLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupBusinessmanLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="RadBusinessmanLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadBusinessmanLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadBusinessmanLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="PartyGirlLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="PartyGirlLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupPartyGirlLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="RadPartyGirlLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadPartyGirlLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadPartyGirlLoot"/>
 		</lootcontainer>
 	
-		<lootcontainer name="UtilityWorkerLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="UtilityWorkerLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupUtilityWorkerLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="RadUtilityWorkerLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadUtilityWorkerLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadUtilityWorkerLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="JanitorLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="JanitorLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupJanitorLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="RadJanitorLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadJanitorLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadJanitorLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="NurseLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="NurseLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupNurseLoot"/>			
 		</lootcontainer>
 		
-		<lootcontainer name="RadNurseLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadNurseLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadNurseLoot"/>			
 		</lootcontainer>
 		
-		<lootcontainer name="LabWorkerLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="LabWorkerLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupLabWorkerLoot"/>			
 		</lootcontainer>
 		
-		<lootcontainer name="RadLabWorkerLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadLabWorkerLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadLabWorkerLoot"/>			
 		</lootcontainer>
 		
-		<lootcontainer name="BikerLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate"  destroy_on_close="false">
+		<lootcontainer name="BikerLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate"  destroy_on_close="false">
 		<item group="groupBikerLoot" />
 		</lootcontainer>
 		
-		<lootcontainer name="FatCopLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="FatCopLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupFatCopLoot"/>			
 		</lootcontainer>
 		
-		<lootcontainer name="RadFatCopLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadFatCopLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadFatCopLoot"/>			
 		</lootcontainer>
 		
-		<lootcontainer name="SoldierLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="SoldierLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupSoldierLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="RadSoldierLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadSoldierLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadSoldierLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="ThugLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="ThugLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupThugLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="RadThugLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadThugLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadThugLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="ZombieMaleLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="ZombieMaleLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupZombieMaleLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="RadZombieMaleLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadZombieMaleLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadZombieMaleLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="SteveandTomLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="SteveandTomLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupSteveandTomLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="RadSteveandTomLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadSteveandTomLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadSteveandTomLoot"/>
 		</lootcontainer>
 		
-		<lootcontainer name="ZombieFemaleLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="ZombieFemaleLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupZombieFemaleLoot"/>
 		</lootcontainer>
 
-		<lootcontainer name="RadZombieFemaleLoot" count="1" size="4,2" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
+		<lootcontainer name="RadZombieFemaleLoot" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" loot_quality_template="qualBaseTemplate" ignore_loot_abundance="true"  destroy_on_close="false">
 			<item group="groupRadZombieFemaleLoot"/>
 		</lootcontainer>		
 	</insertafter>	
