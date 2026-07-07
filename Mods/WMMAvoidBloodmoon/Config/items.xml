@@ -2,20 +2,21 @@
 	<append xpath="/items">
 		<item name="drugAvoidBloodmoon">
 			<property name="Tags" value="medical"/>
-			<property name="HoldType" value="16"/>
-			<property name="Meshfile" value="@:Other/Items/Health/painkillersPrefab.prefab"/>
+			<property name="HoldType" value="86"/>
+			<property name="Meshfile" value="@:Other/Items/Health/syringeMedical_01Prefab.prefab" />
 			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
 			<property name="Material" value="Morganic"/>
 			<property name="Stacknumber" value="10"/>
 			<property name="DisplayType" value="drugAvoidBloodmoon"/>
 			<property name="EconomicValue" value="1"/>
 			<property name="Group" value="Science,Medical"/>
-			<property name="CustomIcon" value="drugSteroids"/>		
+			<property name="CustomIcon" value="drugSteroids"/>
+			<property name="SoundPickup" value="steroids_grab" />
+			<property name="SoundPlace" value="steroids_place" />
 			<property class="Action0">
-				<property name="Class" value="Eat"/>
-				<property name="Delay" value="1.0"/>
-				<property name="Use_time" value="..."/>
-				<property name="Sound_start" value="player_painkillers"/>
+				<property name="Class" value="Eat" />
+				<property name="Delay" value="3" />
+				<property name="Sound_start" value="player_syringe" />
 			</property>
 			<effect_group tiered="false">
 				<display_value name="dDuration" value="1200"/>
